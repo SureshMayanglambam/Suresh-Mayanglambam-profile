@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+       <h1 class="company"> MS Store </h1>
+       <ul class="nav-list">
+            <li class="nav-item">
+                <input class="search" type="text" name="search" placeholder="search here...">
+                <i class="fas fa-search"></i>
+            </li>
+           <li class="nav-item">
+               <a href="#">
+                   Home
+               </a>
+           </li>
+           <li class="nav-item">
+            <a href="#">
+                Product
+            </a>
+        </li>
+        <li class="nav-item">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"> Category <i class="fas fa-caret-down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">All</a>
+                      <a href="#">Health & Personal care</a>
+                      <a href="#">Beauty</a>
+                      <a href="#">Food & Beverage</a>
+                      <a href="#">Fashion</a>
+                      <a href="#">Computers & Accesories</a>
+                      <a href="#">Toys</a>
+                      <a href="#">Musical Instrument</a>
+                      <a href="#">Hobby</a>
+                      <a href="#">Furniture</a>
+                      <a href="#">Jewelry</a>
+                    </div>
+                  </div>
+        </li>
+        <li class="nav-item">
+            <a href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#">
+                <i class="fas fa-user"></i>
+            </a>
+        </li>
+       </ul>
+    </section>
+
+    <section class="top">
+        <div class="top-text">
+            <h1>Winter Sales<span class="bg"> Upto 70%</span> </h1>
+            <p>Get The Winter Fashion Vibes</p>
+            <button class="btn">Explore Now</button>
+        </div>
+    </section>
+
+    <section class="front">
+        <div class="front-row">
+            <div class="front-section">
+               
+                <div class="br">
+                    <h5> <a href="#"> Musical Instrument </a></h5>
+                    <img class="img" src="./asset/image/front-1.png" alt="front-1">
+                </div>
+            </div>
+            <div class="front-section">
+                <div class="br">
+                    <h5><a href="#"> Computers & <br> Accessories</a></h5>
+                    <img class="img-accesories" src="./asset/image/front-2.png" alt="front-1">
+                </div>
+            </div>
+            <div class="front-section">
+                <div class="br">
+                    <h5><a href="#"> Fashion <br> &  Clothing</a></h5>
+                    <img class="img-fashion" src="./asset/image/front-3.png" alt="front-1">
+                </div>
+            </div>
+        </div>
+        <div class="hr"></div>
+    </section>
+
+    <section class="footer">
+       
+    </section>
+    <section>
+        <form class="sort_by" action="#">
+            <label for="filter">sort by :</label>
+            <select name="feature" id="feature">
+              <option value="Featured">Featured</option>
+              <option value="price">price : Low to high</option>
+              <option value="price">price : High to Low</option>
+              <option value="date">Launch date</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Filtered">
+          </form>
+
+          <div class="arrow"><h4>See All&nbsp;<i class="fas fa-arrow-circle-right"></i></h4></div>
+
+
+          <div class="product">
+              <div class="card">
+                  <img class="card-img" src="./asset/image/item-1.jpeg" alt="" >
+                  <div class="card-name">
+                    <h4>Item 01</h4>
+                    <p>ajbfakbfsbsbvfsbkfbsbgsbfsd
+                    </p>
+                    <button class="cart" type="button">Add to Cart<i class="fas fa-cart-arrow-down"></i></button>
+
+                  </div>
+              </div>
+         
+            <div class="card">
+                <img class="card-img" src="./asset/image/item-1.jpeg" alt="" >
+                <div class="card-name">
+                    <h4>Item 01</h4>
+                    <p>dressbsbfjsbfsbfsd</p>
+                    <button class="cart" type="button">Add to Cart<i class="fas fa-cart-arrow-down"></i></button>
+
+                </div>
+            </div>
+       
+            <div class="card">
+                <img class="card-img" src="./asset/image/item-1.jpeg" alt="" >
+                <div class="card-name">
+                    <h4>Item 01</h4>
+                    <p>dressbsbfjsbfsbfsd</p>
+                    <button class="cart" type="button">Add to Cart<i class="fas fa-cart-arrow-down"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>
